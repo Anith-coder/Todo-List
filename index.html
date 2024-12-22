@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Todo List</title>
+    <link rel="icon" href="./images/myIcon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="main">TO-DO LIST</h1>
+        <div id="div">
+            <input id="input" type="text" placeholder="Enter To-do">
+
+            <button id="adding" onclick="add()">Add Veggie</button>
+        </div>
+        <div id="list-container">
+            <ul id="container">
+                <li id="list">Write To Do <button class="deletebutton" onclick="deleteItem(event)" id="deleteItem"><svg
+                            xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                            fill="#5f6368">
+                            <path
+                                d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z" />
+                        </svg></button></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Develped By <a href="#">Maria Anith Developer</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
